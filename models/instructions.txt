@@ -1,1 +1,24 @@
 just put the models in this folder
+
+
+//Virtual env
+python3 -m venv env
+source env/bin/activate
+
+
+//Homebrew activate
+eval $(/opt/homebrew/bin/brew shellenv)
+
+
+
+//////////Further downloads for Mac m2
+
+pip install torch torchvision torchaudio
+
+
+pip install tensorflow-macos
+
+
+
+pip install onnxruntime-silicon
+
